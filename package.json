@@ -1,0 +1,15 @@
+{
+    "name": "mern-blog",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "backend": "cd server && nodemon index.js",
+        "frontend": "cd client && yarn dev",
+        "dev": "concurrently \"yarn frontend \" \" yarn backend \""
+    },
+    "license": "MIT",
+    "dependencies": {
+        "concurrently": "^8.0.1",
+        "package.json": "^2.0.1"
+    }
+}
